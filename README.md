@@ -19,5 +19,7 @@ Example sql commands to set up your table might be:
 create database test;
 use test;
 create table links(id int(9) NOT NULL PRIMARY KEY AUTO_INCREMENT, name varchar(80));
-(explain links)
 insert into links(id,name) values(0,'steve');
+
+From a mysql:// prompt you can use "explain links" to see the structure of your
+mysql table.
